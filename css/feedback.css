@@ -1,0 +1,102 @@
+@import url(main.css);
+
+.feedback-outer{
+   
+/* height: 100svh; */
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/feedback-bg1.jpg"); 
+background-size: cover;
+background-repeat: no-repeat;
+align-items: center;
+    align-content: center;
+    background-attachment: fixed;
+
+}
+
+.layer{
+    width: 100%;
+    /* height: 100svh; */
+    
+    background-color: rgba(66, 65, 65, 0.708);
+    top: 0;
+    padding-top: 10%;
+    
+   
+}
+
+
+.feedback-form{
+    /* position: absolute; */
+    width:60%;
+    height:auto;
+    background-color: whitesmoke;
+   padding-top:20%;
+   
+    z-index: 1;
+    border-radius: 12px;
+    border:3px solid white;
+    outline: 2px solid rgb(221, 223, 209);
+    outline-offset: 10px;
+    text-align: center;
+    background-color:rgba(245, 245, 245, 0.801);
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+
+margin: auto;
+
+p{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+h3{
+    padding: 10px;
+}
+h4{
+    text-align: left;
+}
+input, textarea{
+ padding: 16px;
+ margin-bottom: 20px;
+ border:1px solid rgba(128, 128, 128, 0.664);
+ border-radius: 4px;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+transition: all 1s linear;
+display: inline-block;
+position: relative;
+
+ &:hover{
+    border-bottom: 1px solid var(--blue);
+ }
+}
+
+input[type="text"]:after {
+    position: absolute;
+    right: 6px;
+    font-family: 'FontAwesome';
+    content: '\f274';
+ }
+textarea{
+    min-height: 100px;
+}
+
+label{
+    text-align: center;
+}
+ 
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+  padding: 0;
+  margin-bottom: 0.6em;
+   
+}
+button{
+    align-self:center;
+    margin-top: 40px;
+}
+
+}

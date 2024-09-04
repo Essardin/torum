@@ -1,0 +1,110 @@
+.contact-info{
+
+    display: flex;
+   
+    margin: auto;
+width:80%;
+
+    .contact-details{
+        border:1px solid rgba(128, 128, 128, 0.664);
+        width: 28%;
+        margin-right: 3%;
+        padding: 20px;
+        border-radius: 7px;
+        display: flex;
+        text-align: left;
+        min-height: 90px;
+        vertical-align: middle;
+        align-items: center;
+
+
+
+        .contact-icons{
+            
+           border-radius: 50px;
+            min-width:60px;
+            min-height: 60px;
+            background-color: rgba(4, 32, 54);
+        
+            color: whitesmoke;
+          
+          font-size: 23px;
+          align-content: center;
+          text-align: center;
+margin-right: 20px;
+          
+
+          
+        }
+    }
+}
+.contact-details:hover .contact-icons{
+    /* background: linear-gradient(to right, rgba(4, 32, 54), rgb(87, 83, 83) 50%); */
+    background: linear-gradient(to right, rgb(2, 22, 27),rgba(28,168,203) 50%);
+    
+    
+    background-size: 200% 100%;
+background-position: right bottom;
+transition: all .5s ease-out;
+}
+
+
+.contact-form-outer{
+background-image: url("/images/contact-page-bg.jpg");
+background-size: cover;
+padding: 4%;
+
+
+.contact-form{
+    background-color: whitesmoke;
+    width:30%;
+    min-width: 450px;
+    height: auto;
+    border-radius: 12px;
+    margin-left:8%;
+    padding: 30px;
+display: flex;
+flex-direction: column;
+
+
+    heading{
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    input, textarea, select{
+     padding: 16px;
+     margin-bottom: 20px;
+     border:1px solid rgba(128, 128, 128, 0.664);
+     border-radius: 4px;
+    }
+
+     /* button{
+        width:150px;
+        padding: 16px;
+        border-radius:22px;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(4, 32, 54);
+        color:whitesmoke;
+        
+        background: linear-gradient(to right, rgba(4, 32, 54), rgb(87, 83, 83) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+
+        &:hover{
+
+            background-position: left bottom;
+         } */
+
+
+  
+
+      
+     }
+    
+}
+
+
